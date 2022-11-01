@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://img.freepik.com/premium-wektory/monety-bitcoin-latajace-na-bialym-tle-pieniadze-zlote-monety-samodzielnie_36059-268.jpg?w=2000);
+}
+
+h1 {
+    color: rgb(34, 17, 188);
+    text-shadow: 5px 5px 2px rgb(7, 3, 26);
+    font-family: fantasy;
+    font-size: 100px;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid;
+}
+
+a {
+    color: rgb(17, 10, 162);
+}
+
+.menubutton {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid;
+    font-size: 4vh;
+}
+
+.menubutton:hover {
+    font-size: 4.1vh;
+}
+
+#window {
+    background-image: url("https://st.depositphotos.com/3008028/4643/i/950/depositphotos_46431811-stock-photo-abstract-white-background.jpg");
+    border: 2px solid black;
+    width: 60%;
+}
+
+h3 {
+	margin-top: 1vh;
+    color: rgb(34, 17, 188);
+    text-shadow: 0.5vw 0.5vw 0.5vw rgb(7, 3, 26);
+    font-family: fantasy;
+    font-size: 5vw;
+    letter-spacing: 2px;
+}
+
+#comment {
+    border-color: black;
+    border-width: 0.7mm;
+	width: 70%;
+}
+
+#cat {
+    max-width: 70%;
+}
+
+#choice {
+    font-size: 20px;
+    width:70%;
+}
+
+#myCollapse {
+    width: 70%;
+    text-align: center;
+    border-radius: 2mm;
+    background-color: white;
+}
