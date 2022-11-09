@@ -177,7 +177,7 @@ if (isset($_POST['email']))
                     <div>
                         <input type="submit" value="Zarejestruj się" />
                     </div>
-                    <b><a href="loginandsignup.php">Masz już konto?- ZALOGUJ SIĘ!</a></b>
+                    <b><a href="index.php">Masz już konto?- ZALOGUJ SIĘ!</a></b>
                 </div>
             </div>
         </div>

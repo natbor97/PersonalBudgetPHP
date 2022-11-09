@@ -6,10 +6,8 @@
 		exit();
     }
 
-    $currentdate = date('Y');
-
-    $_SESSION['start_date'] = $currentdate."-01-01";
-    $_SESSION['end_date'] = $currentdate."-12-31";
-
+    $_SESSION['start_date'] = $_POST['start_date'];
+    $_SESSION['end_date'] = $_POST['end_date'];
+   
     header('Location: showbalance.php');
 ?>

@@ -4,7 +4,7 @@
 
 	if ((!isset($_POST['email'])) || (!isset($_POST['password']))) 
 	{
-		header('Location: loginandsignup.php');
+		header('Location: index.php');
 		exit();
 	}
 
@@ -46,13 +46,13 @@
 				else 
 				{
 					$_SESSION['blad'] = '<div class="container-fluid text-center" style="color:darkred; font-weight:bolder">Nieprawidłowy login lub hasło!</div>';
-					header('Location: loginandsignup.php');
+					header('Location: index.php');
 				}
 			} 
 			else 
 			{
 				$_SESSION['blad'] = '<div class="container-fluid text-center" style="color:darkred; font-weight:bolder">Nieprawidłowy login lub hasło!</div>';
-				header('Location: loginandsignup.php');
+				header('Location: index.php');
 			}
 		}
 		$polaczenie->close();

@@ -4,7 +4,7 @@ session_start();
 
 if (!isset($_SESSION['zalogowany'])) {
 
-  header('Location: loginandsignup.php');
+  header('Location: index.php');
   exit();
 }
 
@@ -94,7 +94,6 @@ if (!isset($_SESSION['zalogowany'])) {
         do:
         <?php
         echo $_SESSION['end_date'];
-
         ?>
       </h4>
       <hr />
@@ -151,7 +150,7 @@ if (!isset($_SESSION['zalogowany'])) {
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
-          <form method="post">
+          <form action="showbalancechoice.php" method="post">
             Data początkowa:
             <input type="date" name="start_date" class="form-control">
 
